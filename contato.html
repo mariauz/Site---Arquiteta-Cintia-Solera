@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cíntia Solera Arquitetura - Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+            <h1 class="logo"><a href="index.html">Cíntia Solera</a></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="container contact-grid">
+                <div class="contact-form-wrapper">
+                    <h2 class="section-title-alt">Contato</h2>
+                    <p class="contact-description">
+                        Entre em contato para conversar sobre seu projeto. Será um prazer atendê-lo.
+                    </p>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="sr-only">Nome</label>
+                            <input type="text" id="name" name="name" placeholder="NOME" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="sr-only">Email</label>
+                            <input type="email" id="email" name="email" placeholder="EMAIL" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="sr-only">Telefone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="TELEFONE">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="sr-only">Mensagem</label>
+                            <textarea id="message" name="message" rows="6" placeholder="MENSAGEM" required></textarea>
+                        </div>
+                        <button type="submit" class="button primary-button">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+                <div class="contact-info-wrapper">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-text">
+                            <h3>Endereço</h3>
+                            <p>Rua dos Arquitetos, 123 – Jardins</p>
+                            <p>São Paulo, SP – CEP 01000-000</p>
+                            <a href="https://maps.app.goo.gl/SEULINKDOENDERECO" target="_blank" class="map-link">Abrir no Maps</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="info-text">
+                            <h3>Telefone</h3>
+                            <p>(11) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-text">
+                            <h3>Email</h3>
+                            <p>contato@cintiasolera.com.br</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col social-media">
+                <h3 class="footer-logo">Cíntia Solera</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col contact-info">
+                <h3>Entre em contato</h3>
+                <p>contato@cintiasolera.com.br</p>
+                <p>(11) 99999-9999</p>
+            </div>
+            <div class="footer-col location-map">
+                <h3>Localização</h3>
+                <div class="map-embed">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.394622156475!2d-45.54227702580633!3d-22.93475713994723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccfbfcf27a4d53%3A0xc3f6a2a5f57a0752!2sPra%C3%A7a%20Fernando%20Gomes%20Nogueira%20Filho%2C%2031%20-%20Independ%C3%AAncia%2C%20Taubat%C3%A9%20-%20SP%2C%2012031-390!5e0!3m2!1spt-BR!2sbr!4v1701384000000!5m2!1spt-BR!2sbr" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <p class="map-address">Praça Fernando Gomes Nogueira Filho, 31 – Independência, Taubaté – SP, 12031-390</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cíntia Solera Arquitetura. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
